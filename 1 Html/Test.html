@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=" description" content="This is description">
+    <meta name="keywords" content="html,html tutorial,web page ">
+    <meta name="robots" content="INDEX , FOLLOW">
+    <title>Test Page </title>
+    <!-- ctrl+/ is used to comment the line -->
+    <!-- This is how u include external css file -->
+    <link rel="stylesheet" href="Test.css">
+    <!-- This is how u include external java file -->
+    <script src="Test.js"></script>
+</head>
+  
+<body>
+    <h1>Harry</h1>
+    <h2> second paragraph</h2>
+    <h3>thired paragraph</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum labore aspernatur consequuntur! Perspiciatis placeat nam eveniet <strong>Lorem ipsum dolor sit amet consectetur.</strong> illum quae dolore incidunt, velit aut vitae, nobis voluptatum <em>this is emphasized</em> vel qui sit soluta ad. Animi quia velit sunt hic cumque repellendus ducimus quos doloremque.</p>
+    <hr>
+    <p>Second <br> paragraph</p>
+    <hr>
+    <p style="color:red;">This is a red paragraph.</p>
+    <hr>
+    <strong style="border: 2px solid red;">this is a paragraph </strong><br>
+    <!-- ctrl+enter to jump new line -->
+    <!-- Anchor tag -->
+    <!-- alt+ courser write the words in multipal lines -->
+    <!-- external links -->
+    
+    <a href="http://google.com" target="_blank"> Go to google </a><br>
+    <a href="http://facebook.com" target="_blank"> Go to facebook </a><br>
+    <a href="http://linkedin.com" target="_blank"> Go to linkedin </a><br>
+    <a href="http://twitter.com" target="_blank"> Go to twitter </a><br>
+    <!-- img tag -->
+    <img src="https://images.unsplash.com/photo-1665762984755-d216d0b24e5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8eGpQUjRobGtCR0F8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="Error" width="200" height="300"><br>
+     <!-- internal links -->
+     <a href="/Test.css"target="_blank"> css</a><br>
+     <!--  un-order list-->
+    <ul type="square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <!--  order list -->
+
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <!-- table  -->
+      <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee ID</th>
+                <th>Employee Role</th>
+            </tr>
+        </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Isma</td>
+                <td>23576</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>Isma</td>
+                <td>23576</td>
+                <td>HTML</td>
+            </tr>
+        </tbody>
+      </table>
+      <!-- Form -->
+      <h2>HTML Form</h2>
+      <form action="backend.php">
+          <div>
+              Name <input type="text" name="MyName">      
+          </div>
+          <br>
+          <div>
+              Roll <input type="text" name="MyRoll">      
+          </div>
+          <br>
+          <div>
+              Email <input type="email" name="MyEmail">      
+          </div>
+          <br>
+          <div>
+              Date <input type="date" name="myDate">     
+          </div>
+          <br>
+          <div>
+           Bonus <input type="number" name="myBonus">     
+        </div>
+        <br>
+        <div>
+            Gander : Male <input type="radio" name="myGander"> Female  <input type="radio" name="myGander"> Other <input type="radio" name="myGander">   
+        </div>
+        <br>
+        <div>
+        Write About <br> <textarea name="myText" id="" cols="40" rows="20"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="submit now"> 
+            <input type="reset" name="Reset Now">    
+        </div>
+        <br>
+        
+      </form>
+    <!-- . is used for class and # is used for ID -->
+    <h3>Id and classes </h3>
+    <div id="mainBox" class="redBg blackBorder">
+        this is main box 
+    </div>
+    <span class="redBg"></span>
+    <span id="id"></span>
+    <h2>HTML Elements</h2>
+    <div class="container">
+    </div>
+    <div class="container">
+        <p>This is another &nbsp; &nbsp; paragraph with to spaces</p>
+        <p>This paragraph is written type this &lt;p&gt; </p>
+        <p>Pound is written like this &pound;</p>
+        <p>Another character is &rAarr; </p>
+        <h2> Semantic tags</h2>
+        <details>
+            <summary>Details</summary>
+            Something small enough to escape casual notice. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptas ipsam quia ea odio dolorum cum, repellendus quo provident quasi blanditiis sequi obcaecati! Natus error asperiores atque mollitia sed eveniet, perferendis porro provident laudantium sint, nesciunt architecto consequatur veniam suscipit.
+        </details>
+    </div>
+    <article class="forecast">
+        <h1>Weather forecast for Seattle</h1>
+        <article class="day-forecast">
+            <h2>03 March 2018</h2>
+            <p>Rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>04 March 2018</h2>
+            <p>Periods of rain.</p>
+        </article>
+        <article class="day-forecast">
+            <h2>05 March 2018</h2>
+            <p>Heavy rain.</p>
+        </article>
+    </article>
+</body>
+</html>
